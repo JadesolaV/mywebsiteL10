@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+#head {
+    padding: 20px 60px;
+    float: left;
+}
+    
+#skills {
+    float: right;
+    padding: 250px 50px;
+}
+    
+.mainImage {
+    width: 400px;
+    height: 400px;
+}
+    
+#contacts {
+    display: flex;
+    justify-content: left;
+}
+    
+#contacts a>img {
+    margin-right: 40px;
+    margin-top: 10px;
+}
+    
+.skills-container {
+    display: flex;
+    justify-content: flex-end;
+}
+    
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+    
+#clear {
+    clear: both;
+    }
+    img.zoom {
+    width: 350px;
+    height: 200px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+    
+.transition {
+    -webkit-transform: scale(1.8); 
+    -moz-transform: scale(1.8);
+    -o-transform: scale(1.8);
+    transform: scale(1.8);
+}
+    
